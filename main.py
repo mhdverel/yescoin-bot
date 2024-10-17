@@ -16,14 +16,9 @@ __     __                         _
    | |   |  __/\__ \| (__ | (_) || || | | |
    |_|    \___||___/ \___| \___/ |_||_| |_|
           """)
-    print("\n")
     print(Fore.GREEN + Style.BRIGHT + "YesCoin BOT (ULTIMATE EDITION)")
-
     time.sleep(1.5)
-    print("\n")
-    print(Fore.GREEN + Style.BRIGHT + "Script updated on: 2024-10-15 14:53:00 UTC")
-    print(Fore.GREEN + Style.BRIGHT + "Change log: Bug Fixed!")
-    print("\n")
+    
 # Load tokens from file
 def load_tokens(file_path):
     with open(file_path, 'r') as file:
